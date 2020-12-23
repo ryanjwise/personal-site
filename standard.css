@@ -1,0 +1,39 @@
+/* Standard CSS styler used across all documents */
+
+
+:root {
+    /* Color Definitions defined below */
+    --Primary: #7A296B;
+    --2back: #3F5200;
+    --2fore:#8AA337;
+    --2highlight: #E2F4A3;
+    --Background:;
+
+}
+#main {
+}
+#header {
+    height: 80px;
+    width: 100%;
+    padding: 20px;
+    background-color:var(--2back);
+}
+#header li {
+    float: left;
+    display: block;
+    float: left;
+    display: block;
+    padding: 8px;
+    list-style-type: none;
+    background-color: var(--2fore);
+    text-align: center;
+}
+.active {
+    background-color: var(--2highlight);
+
+#container {
+
+}
+#footer {
+    color: black;
+}
