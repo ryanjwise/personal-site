@@ -1,0 +1,37 @@
+#main {
+  width: 80%;
+  margin: 20px auto;
+  padding: 30px 15px;
+  background: #eee;
+}
+#title {
+  text-align:center;
+}
+#img-div {
+  display: block;
+  align-content: center;
+  margin: 10px auto;
+  width:80%;
+  padding: 10px;
+  background: white;
+}
+
+#image {
+  max-width:80%;
+  display: block;
+  height: auto;
+  margin: 10px auto;
+}
+
+#img-caption {
+  max-width:80%;
+  display: block;
+  height: auto;
+  margin: 10px auto;
+}
+#tribute-info {
+  max-width:80%;
+  display: block;
+  height: auto;
+  margin: 10px auto;
+}
