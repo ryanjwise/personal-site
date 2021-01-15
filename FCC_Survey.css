@@ -1,0 +1,47 @@
+.image {
+    --image-white: #f3f3f3;
+    --image-background: #1b1b32;
+    --image-background-transparent:  rgba(27, 27, 50, 0.8);
+    --image-submit: #37af65;
+    margin: 10px;
+    background-color: var(--image-background);
+    background-image: linear-gradient(115deg,
+    rgba(58,58,158,0.8),
+    rgba(136,136,206,0.7)),
+    url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: var(--image-white);
+}
+
+#title{
+    text-align: center;
+}
+#description{
+    text-align: center;
+}
+#survey-form{
+    background-color: var(--image-background-transparent);
+    padding:20px;
+
+}
+.form-element{
+}
+.form-element label{
+    
+}
+
+.form-element input{
+    
+}
+
+.form-element option{
+    
+}
+.form-element textarea{
+    
+}
+.form-element button{
+    
+}
