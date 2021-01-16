@@ -3,11 +3,11 @@
     --image-background: #1b1b32;
     --image-background-transparent:  rgba(27, 27, 50, 0.8);
     --image-submit: #37af65;
-    margin: 10px;
+
     background-color: var(--image-background);
     background-image: linear-gradient(115deg,
-    rgba(58,58,158,0.8),
-    rgba(136,136,206,0.7)),
+    var(--image-background-transparent),
+    rgba(255, 255, 255, 0.7)),
     url(https://cdn.freecodecamp.org/testable-projects-fcc/images/survey-form-background.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -17,6 +17,7 @@
 
 #title{
     text-align: center;
+    color: inherit
 }
 #description{
     text-align: center;
@@ -24,24 +25,45 @@
 #survey-form{
     background-color: var(--image-background-transparent);
     padding:20px;
+    border-radius: 15px;
+    text-align: left;
 
 }
+.form-section {
+    margin-bottom: 45px;
+}
 .form-element{
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
 }
 .form-element label{
-    
+    margin-bottom: 5px;
+    display: block;
 }
 
 .form-element input{
-    
+    margin-right: 20px;
+}
+.form-element input::placeholder{
+    text-align: start;
 }
 
 .form-element option{
     
 }
 .form-element textarea{
-    
+    min-height: 120px;
+    padding: 5px;
 }
 .form-element button{
-    
+    background-color: var(--image-submit);
+    color: inherit;
+    padding: 5px;
+    border: 2px;
+    cursor: pointer;
+}
+.form-element p{
+    margin: 0px;
+    margin-bottom: 5px;
 }
