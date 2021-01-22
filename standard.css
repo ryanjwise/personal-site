@@ -128,6 +128,7 @@ h1,h2,h3,h4,h5,h6 {
     border: solid 2px var(--Hero);
     padding: 2.5%;
     overflow-y: auto;
+    box-shadow: 10px 15px var(--Tertiary);
 }
 .content h1,h2,h3,h4,h5,h6 {
     color: var(--Highlight);
@@ -180,4 +181,14 @@ code {
   padding: 0px;
   font-family: var(--Code);
   font-size:1.2em;
+}
+
+@media (max-width: 1400px) {
+  .page-content {
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:
+    "text"
+    "image";
+  }
 }
