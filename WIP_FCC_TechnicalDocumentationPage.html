@@ -9,88 +9,127 @@
     <link rel="stylesheet" href="WIP_FCC_TechnicalDocumentationPage.css" />
 </head>
 <body>
-    <nav class="nav" id="navbar">
-        <header class="nav-header">
-            <h2 class="nav-title">Nav Title</h2>
-            <a href="#" class="nav-link">Section 01</a>
-            <a href="#" class="nav-link">Section 02</a>
-            <a href="#" class="nav-link">Section 03</a>
-            <a href="#" class="nav-link">Section 04</a>
-            <a href="#" class="nav-link">Section 05</a>
-        </header>
-    </nav>
-    <main id="main-doc">
-        <h1>Title</h1>
-        <section class="main-section" id="section-01">
-            <header class="section-header">
-                <h2 class="section-title">Section Title</h2>
+    <div id="page-wrapper">
+        <nav class="nav" id="navbar">
+            <header class="nav-header">
+                <h2 class="nav-title">CSS Introduction</h2>
+                <a href="#" class="nav-link">What is CSS?</a>
+                <a href="#" class="nav-link">Linking a CSS Doc to HTML</a>
+                <a href="#" class="nav-link">CSS First Principles</a>
+                <a href="#" class="nav-link">CSS Specificity</a>
+                <a href="#" class="nav-link">CSS Commands</a>
             </header>
-                <p class="section-text">Section Paragraphs here</p>
-                <p class="section-text">Section Paragraphs here</p>
-                <code class="section-code">Code goes here</code>
-                <ul class="section-ul">
-                    <li class="section-li">List Item</li>
-                    <li class="section-li">List Item</li>
-                    <li class="section-li">List Item</li>
-                    <li class="section-li">List Item</li>
-                    <li class="section-li">List Item</li>
-                </ul>
-                <ol class="section-ol">
-                    <li class="section-li">List Item</li>
-                    <li class="section-li">List Item</li>
-                    <li class="section-li">List Item</li>
-                    <li class="section-li">List Item</li>
-                    <li class="section-li">List Item</li>
-                </ol>
+        </nav>
+        <main id="main-doc">
+            <section class="main-section" id="section-01">
+                <header class="section-header">
+                <h2 class="section-title">What is CSS?</h2>
+            </header>
+            <p class="section-text">CSS Documents allow visual manipulation of HTML content. It adds 'style' to a website and can be used to define and control colour, size, and position of elements.</p>
+            <p class="section-text">CSS Stands for 'Cascading Style Sheet' and functions by calling out tags, ID's and classes defined within the HTML document, and assigning style sheets to them in order of specificity.</p>
+            <code class="section-code">
+                p { 
+                    Property1: value;
+                    Property2: value; 
+                    Property3: value;  
+                }
+                
+                #id { 
+                    Property1: value;
+                    Property2: value; 
+                    Property3: value;  
+                }
+                .class { 
+                    Property1: value;
+                    Property2: value; 
+                    Property3: value;  
+                }
+            </code>
+            <ul class="section-ul">
+                <li class="section-li">List Item</li>
+                <li class="section-li">List Item</li>
+                <li class="section-li">List Item</li>
+                <li class="section-li">List Item</li>
+                <li class="section-li">List Item</li>
+            </ul>
+            <ol class="section-ol">
+                <li class="section-li">List Item</li>
+                <li class="section-li">List Item</li>
+                <li class="section-li">List Item</li>
+                <li class="section-li">List Item</li>
+                <li class="section-li">List Item</li>
+            </ol>
         </section>
         <section class="main-section" id="section-02">
             <header class="section-header">
-                <h2 class="section-title">Section Title</h2>
+                <h2 class="section-title">Linking a CSS Doc to HTML</h2>
             </header>
-                <p class="section-text">Section Paragraphs here</p>
-                <p class="section-text">Section Paragraphs here</p>
-                <code class="section-code">Code goes here</code>
-                <ul class="section-ul">
-                    <li class="section-li">List Item</li>
-                    <li class="section-li">List Item</li>
-                    <li class="section-li">List Item</li>
-                    <li class="section-li">List Item</li>
-                    <li class="section-li">List Item</li>
-                </ul>
-                <ol class="section-ol">
-                    <li class="section-li">List Item</li>
-                    <li class="section-li">List Item</li>
-                    <li class="section-li">List Item</li>
-                    <li class="section-li">List Item</li>
-                    <li class="section-li">List Item</li>
-                </ol>
+            <p class="section-text">Section Paragraphs here</p>
+            <p class="section-text">Section Paragraphs here</p>
+            <code class="section-code">Code goes here</code>
+            <ul class="section-ul">
+                <li class="section-li">List Item</li>
+                <li class="section-li">List Item</li>
+                <li class="section-li">List Item</li>
+                <li class="section-li">List Item</li>
+                <li class="section-li">List Item</li>
+            </ul>
+            <ol class="section-ol">
+                <li class="section-li">List Item</li>
+                <li class="section-li">List Item</li>
+                <li class="section-li">List Item</li>
+                <li class="section-li">List Item</li>
+                <li class="section-li">List Item</li>
+            </ol>
         </section>
         <section class="main-section" id="section-03">
             <header class="section-header">
-                <h2 class="section-title">Section Title</h2>
+                <h2 class="section-title">CSS First Principles</h2>
             </header>
-                <p class="section-text">Section Paragraphs here</p>
-                <p class="section-text">Section Paragraphs here</p>
-                <code class="section-code">Code goes here</code>
-                <ul class="section-ul">
-                    <li class="section-li">List Item</li>
-                    <li class="section-li">List Item</li>
-                    <li class="section-li">List Item</li>
-                    <li class="section-li">List Item</li>
-                    <li class="section-li">List Item</li>
-                </ul>
-                <ol class="section-ol">
-                    <li class="section-li">List Item</li>
-                    <li class="section-li">List Item</li>
-                    <li class="section-li">List Item</li>
-                    <li class="section-li">List Item</li>
-                    <li class="section-li">List Item</li>
-                </ol>
+            <p class="section-text">Section Paragraphs here</p>
+            <p class="section-text">Section Paragraphs here</p>
+            <code class="section-code">Code goes here</code>
+            <ul class="section-ul">
+                <li class="section-li">List Item</li>
+                <li class="section-li">List Item</li>
+                <li class="section-li">List Item</li>
+                <li class="section-li">List Item</li>
+                <li class="section-li">List Item</li>
+            </ul>
+            <ol class="section-ol">
+                <li class="section-li">List Item</li>
+                <li class="section-li">List Item</li>
+                <li class="section-li">List Item</li>
+                <li class="section-li">List Item</li>
+                <li class="section-li">List Item</li>
+            </ol>
         </section>
         <section class="main-section" id="section-04">
             <header class="section-header">
-                <h2 class="section-title">Section Title</h2>
+                <h2 class="section-title">CSS Specificity</h2>
             </header>
+            <p class="section-text">Section Paragraphs here</p>
+            <p class="section-text">Section Paragraphs here</p>
+            <code class="section-code">Code goes here</code>
+            <ul class="section-ul">
+                <li class="section-li">List Item</li>
+                <li class="section-li">List Item</li>
+                <li class="section-li">List Item</li>
+                <li class="section-li">List Item</li>
+                <li class="section-li">List Item</li>
+            </ul>
+            <ol class="section-ol">
+                <li class="section-li">List Item</li>
+                <li class="section-li">List Item</li>
+                <li class="section-li">List Item</li>
+                    <li class="section-li">List Item</li>
+                    <li class="section-li">List Item</li>
+                </ol>
+            </section>
+            <section class="main-section" id="section-05">
+                <header class="section-header">
+                    <h2 class="section-title">CSS Commands</h2>
+                </header>
                 <p class="section-text">Section Paragraphs here</p>
                 <p class="section-text">Section Paragraphs here</p>
                 <code class="section-code">Code goes here</code>
@@ -108,29 +147,8 @@
                     <li class="section-li">List Item</li>
                     <li class="section-li">List Item</li>
                 </ol>
-        </section>
-        <section class="main-section" id="section-05">
-            <header class="section-header">
-                <h2 class="section-title">Section Title</h2>
-            </header>
-                <p class="section-text">Section Paragraphs here</p>
-                <p class="section-text">Section Paragraphs here</p>
-                <code class="section-code">Code goes here</code>
-                <ul class="section-ul">
-                    <li class="section-li">List Item</li>
-                    <li class="section-li">List Item</li>
-                    <li class="section-li">List Item</li>
-                    <li class="section-li">List Item</li>
-                    <li class="section-li">List Item</li>
-                </ul>
-                <ol class="section-ol">
-                    <li class="section-li">List Item</li>
-                    <li class="section-li">List Item</li>
-                    <li class="section-li">List Item</li>
-                    <li class="section-li">List Item</li>
-                    <li class="section-li">List Item</li>
-                </ol>
-        </section>
-    </main>
+            </section>
+        </main>
+    </div>
 </body>
 </html>

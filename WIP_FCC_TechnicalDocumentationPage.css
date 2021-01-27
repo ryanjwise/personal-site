@@ -1,0 +1,66 @@
+/* Common Elements */
+#page-wrapper {
+  display: grid;
+  grid-template-columns: 300px auto;
+  --color-code-back: #666;
+  --color-code-text: #f4f4f4;
+  --font-code: monospace;
+}
+
+#page-wrapper p,ul,ol,li,code,a {
+    margin: 0;
+    font-size: large;
+}
+
+#page-wrapper h1,h2,h3,h4,h5,h6 {
+ margin: 20px 0px 10px 0px;
+ font-size: xx-large;
+}
+
+/* Navigation Elements */
+#navbar {
+  height: 100%;
+  padding: 0px 20px;
+}
+#nav-header {
+}
+.nav-title {
+}
+.nav-link {
+}
+
+/* Documentation Elements */
+#main-doc {
+  position: relative;
+  overflow-y: auto;
+}
+.main-section {
+    padding: 0px 20px;
+}
+.section-header {
+    margin-top: 40px;
+}
+.section-title {
+}
+.section-text {
+    margin-bottom: 5px;
+}
+.section-code {
+    margin-bottom: 1.5em;
+    max-width: 70%;
+    background-color: var(--color-code-back);
+    color: var(--color-code-text);
+    font-family: var(--font-code);
+    border: 1px solid #ddd;
+    line-height: 1.6;
+    display: block;
+}
+.section-ul {
+    margin-bottom: 10px;
+}
+.section-ol {
+    margin-bottom: 10px;
+}
+.section-li {
+    margin-bottom: 5px;
+}
