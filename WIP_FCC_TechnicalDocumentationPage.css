@@ -1,7 +1,6 @@
 /* Common Elements */
 #page-wrapper {
-  display: grid;
-  grid-template-columns: 300px auto;
+  position: relative;
   --color-code-back: #666;
   --color-code-text: #f4f4f4;
   --font-code: monospace;
@@ -19,19 +18,28 @@
 
 /* Navigation Elements */
 #navbar {
-  height: 100%;
+  margin: 10px;
+  height: 100vh;
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
   padding: 0px 20px;
+  background-color: ivory;
 }
 #nav-header {
 }
 .nav-title {
 }
 .nav-link {
+    display: block;
 }
 
 /* Documentation Elements */
 #main-doc {
-  position: relative;
+  background-color: khaki;
+  position: absolute;
+  left: 300px;
   overflow-y: auto;
 }
 .main-section {
@@ -46,8 +54,11 @@
     margin-bottom: 5px;
 }
 .section-code {
+    width: 80%;
     margin-bottom: 1.5em;
-    max-width: 70%;
+    margin-left: 10%;
+    padding: 10px;
+    
     background-color: var(--color-code-back);
     color: var(--color-code-text);
     font-family: var(--font-code);
